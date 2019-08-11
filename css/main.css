@@ -1,0 +1,57 @@
+
+
+
+
+* {margin: 0;
+   padding: 0;}
+
+body {}
+
+@media screen and (max-width: 480px)
+
+
+{
+
+/* Header */
+
+.bg-intro {background-color: hsl(217, 28%, 15%);}
+
+.intro-wrapper {text-align: center; position: relative; z-index: 1;}
+
+.logo {float: left;
+       background-color: hsl(217, 28%, 15%);
+       width: 80px;
+       margin-top: 25px;
+       margin-left: 20px;}
+
+nav {float: right;
+     background-color: hsl(217, 28%, 15%);
+     font-size: 10px;
+     margin-top: 31.5px;
+     margin-bottom: 57.5px;
+     color: white;}
+
+li {display: inline; margin: 0 25.5px 0 0;}
+
+.intro {width: 81.33%;
+        position: relative; z-index: 1;}
+
+/* Section-a */
+
+.bg-curvy {height: 140px;
+           background-image: url(../img/bg-curvy-mobile.svg);
+           background-color: hsl(217, 28%, 15%);
+           position: relative;
+           top: -50px;
+           z-index: 0;
+           width: 100%;}
+
+.section-a {background-color: hsl(218, 28%, 13%); color: white;}
+
+
+
+
+
+
+
+}
