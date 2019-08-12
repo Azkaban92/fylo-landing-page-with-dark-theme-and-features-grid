@@ -124,6 +124,7 @@ li {display: inline; margin: 0 25.5px 0 0;}
 .section-d {background-color: hsl(218, 28%, 13%);
             color: white;
             margin-top: -1px;
+            padding-bottom: 140px;
             width: 100%;
             display: flex;
             flex-flow: column nowrap;
@@ -137,9 +138,10 @@ li {display: inline; margin: 0 25.5px 0 0;}
                       padding: 30px 45px 23px 21px;
                       border-radius: 10px;}
 
+.section-d__review__h {font-size: 15px;}
 
-
-.section-d__review__sub-p {margin-top: 9px;}
+.section-d__review__sub-p {margin-top: 9px;
+                           font-size: 12px;}
 
 .section-d__sub-review1,
 .section-d__sub-review2,
@@ -154,14 +156,99 @@ li {display: inline; margin: 0 25.5px 0 0;}
            clip-path: circle(50% at 50% 50%);
            margin-top: 5px;}
 
+/* Section-e */
+
+.section-e-wrapper {background-color: hsl(218, 28%, 13%);
+                    display: flex;
+                    flex-flow: column nowrap;
+                    align-items: center;
+                    margin-top: -1px;}
+
+.section-e-wrapper-inside {display: flex;
+                           flex-flow: column nowrap;
+                           align-items: center;
+                           text-align: center;
+                           color: white;
+                           padding-top: 45.5px;
+                           transform: translateY(150px);
+                           width: 80%;
+                           background-color: hsl(219, 30%, 18%);
+                           border-radius: 15px;}
+
+.section-e__p {width: 73.33%;
+               margin-bottom: 34px;}
+
+.section-e__h {margin-bottom: 30.5px;}
+
+.section-e__email {margin-bottom: 24px;
+                   border-radius: 100px;
+                   line-height: 52px;
+                   width: 74.67%;}
+
+.section-e__email::placeholder {padding-left: 30px;}
+
+.section-e__btn {padding: 19px 32.5px;
+                 border-radius: 100px;
+                 margin-bottom: 31.5px;
+                 font-size: 14px;
+                 border: none;
+                 width: 74.67%;
+                 color: white;
+                 background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));}
 
 
+/* Footer */
+
+footer {background-color: hsl(216, 53%, 9%);
+        color: white;
+        margin-top: -1px;}
+
+.logo-bottom {margin: 251px 0px 48px 39.5px;}
+
+.location-p {margin-bottom: 28px;
+             width: 325px;}
+
+.phone-p {margin-bottom: 32.5px;}
+
+.email-p {margin-bottom: 94px;}
+
+.phone,
+.email,
+.location {margin-right: 30px;}
+
+.footer__column1,
+.footer__column2,
+.footer__column3,
+.footer__column4  {margin-left: 24px;}
+
+.footer__column1 {display: flex;
+                  flex-flow: row nowrap;
+                  margin-bottom: 65px;}
+
+.location-p {height: 1px;}
+
+.footer__p {margin-bottom: 26px;}
+
+.footer__p-mid {margin-bottom: 56px;}
+
+.footer__column5 {display: flex;
+                  flex-flow: row nowrap;
+                  justify-content: center;
+                  padding-bottom: 43px;}
 
 
+/* Icons */
 
+.fa-facebook,
+.fa-twitter {border: 1px solid white;
+             border-radius: 50px;
+             padding: 8px;}
 
-
-
+.fa-instagram {margin-left: 11px;
+               margin-right: 11px;
+               border: 1px solid white;
+               border-radius: 50px;
+               padding: 8px;}
 
 
 
