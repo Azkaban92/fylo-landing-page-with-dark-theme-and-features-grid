@@ -41,12 +41,37 @@ li {display: inline; margin: 0 25.5px 0 0;}
 .bg-curvy {height: 140px;
            background-image: url(../img/bg-curvy-mobile.svg);
            background-color: hsl(217, 28%, 15%);
-           position: relative;
-           top: -50px;
+           margin-top: -50px;
            z-index: 0;
            width: 100%;}
 
-.section-a {background-color: hsl(218, 28%, 13%); color: white;}
+.section-a {background-color: hsl(218, 28%, 13%);
+            color: white;
+            margin-top: -50px;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            text-align: center;}
+
+.section-a__h {width: 80.8%; font-size: 21px; margin-bottom: 25px;}
+
+.section-a__p {width: 77.6%; font-size: 14px; margin-bottom: 37px;}
+
+.section-a__btn {padding: 19px 83px;
+                 border-radius: 100px;
+                 margin-bottom: 131.5px;
+                 border: none;
+                 color: white;
+                 background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));}
+
+
+
+
+
+
+
+
+
 
 
 
