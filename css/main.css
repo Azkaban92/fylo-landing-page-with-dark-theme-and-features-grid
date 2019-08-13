@@ -119,7 +119,7 @@ li {display: inline; margin: 0 25.5px 0 0;}
                              width: 84.67%;}
 
 .section-c__column2__a:link,
- .section-c__column2__a:visited {color: hsl(176, 68%, 64%);
+.section-c__column2__a:visited {color: hsl(176, 68%, 64%);
                                 border-bottom: 1px solid hsl(176, 68%, 64%);
                                 text-decoration: none;
                                 padding-bottom: 9px;}
@@ -397,7 +397,43 @@ footer {background-color: hsl(216, 53%, 9%);
                                 margin-top: 35px;
                                 }
 
+.section-d__reviews {display: flex;
+                     flex-flow: row nowrap;
+                     justify-content: space-around;}
 
+.section-d {color: white;
+            background-color: hsl(218, 28%, 13%);
+            margin-top: -1px;}
+
+/**/
+
+.quotes {margin-left: 4%; margin-top: 144px;}
+
+.section-d__review1,
+.section-d__review2,
+.section-d__review3  {background-color: hsl(219, 30%, 18%);
+                      margin-bottom: 24px;
+                      width: 300px;
+                      padding: 48px 32px 28px 27px;
+                      border-radius: 10px;}
+
+.section-d__review__h {font-size: 15px;}
+
+.section-d__review__sub-p {margin-top: 9px;
+                           font-size: 12px;}
+
+.section-d__sub-review1,
+.section-d__sub-review2,
+.section-d__sub-review3 {display: flex;
+                         flex-flow: row nowrap;
+                         margin-top: 25px;}
+
+.profile1,
+.profile2,
+.profile3 {width: 24px;
+           margin-right: 8.5px;
+           clip-path: circle(50% at 50% 50%);
+           margin-top: 5px;}
 
 
 
