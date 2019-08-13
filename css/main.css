@@ -7,14 +7,19 @@
 
 @media screen and (max-width: 767px)
 
-
 {
 
 /* Header */
 
 .bg-intro {background-color: hsl(217, 28%, 15%);}
 
-.intro-wrapper {text-align: center; position: relative; z-index: 1;}
+.intro-wrapper {text-align: center;
+                display: flex;
+                clear: both;
+                flex-flow: column nowrap;
+                align-items: center;
+                position: relative;
+                z-index: 1;}
 
 .logo {float: left;
        background-color: hsl(217, 28%, 15%);
@@ -31,7 +36,7 @@ nav {float: right;
 
 li {display: inline; margin: 0 25.5px 0 0;}
 
-.intro {width: 81.33%;
+.intro {width: 305px;
         position: relative; z-index: 1;}
 
 /* Section-a */
@@ -63,6 +68,8 @@ li {display: inline; margin: 0 25.5px 0 0;}
                  border: none;
                  color: white;
                  background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));}
+
+/* Section-b */
 
 .section-b {display: flex;
             flex-flow: column nowrap;
@@ -242,6 +249,8 @@ footer {background-color: hsl(216, 53%, 9%);
 
 /* Icons */
 
+.footer__column5 {margin-top: 82px;}
+
 .fa-facebook,
 .fa-twitter {border: 1px solid white;
              border-radius: 50px;
@@ -252,6 +261,122 @@ footer {background-color: hsl(216, 53%, 9%);
                border: 1px solid white;
                border-radius: 50px;
                padding: 8px;}
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1920px)
+
+{
+
+  /* Header */
+
+  .bg-intro {background-color: hsl(217, 28%, 15%);}
+
+  .intro-wrapper {display: flex;
+                  flex-flow: column nowrap;
+                  align-items: center;
+                  position: relative;
+                  z-index: 1;}
+
+  .logo {float: left;
+         background-color: hsl(217, 28%, 15%);
+         margin-top: 75px;
+         margin-left: 80px;}
+
+  nav {float: right;
+       background-color: hsl(217, 28%, 15%);
+       font-size: 18px;
+       margin-top: 85px;
+       margin-right: 82px;
+       margin-bottom: 57.5px;
+       color: white;}
+
+  li {display: inline; margin: 0 59px 0 0;}
+
+  .intro {width: 715px;
+          position: relative;
+          margin-top: 202px;
+          margin-bottom: 115px;
+          z-index: 1;}
+
+/* Section-a */
+
+.bg-curvy {height: 448px;
+           background-image: url(../img/bg-curvy-desktop.svg);
+           background-color: hsl(217, 28%, 15%);
+           background-repeat: no-repeat;
+           background-position: center;
+           margin-top: 0px;
+           width: 100%;}
+
+.section-a {color: white;
+            margin-top: -480px;
+            display: flex;
+            clear: both;
+            flex-flow: column nowrap;
+            align-items: center;
+            text-align: center;}
+
+.section-a__h {width: 47.01%;
+               font-size: 40px;
+               margin-bottom: 25px;}
+
+.section-a__p {width: 40.28%;
+               font-size: 21px;
+               margin-bottom: 37px;}
+
+.section-a__btn {padding: 23px 97px;
+                 border-radius: 100px;
+                 margin-bottom: 131.5px;
+                 border: none;
+                 color: white;
+                 background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));}
+
+/* Section-b */
+
+.section-b {background-color: hsl(218, 28%, 13%);
+            color: white;
+            margin-top: -1px;}
+
+.section-b__row1,
+.section-b__row2 {display: flex;
+                  flex-flow: row nowrap;
+                  width: 100%;
+                  justify-content: space-around;
+                  align-items: center;}
+
+.section-b__row2 {margin-top: 97px; padding-bottom: 174px;}
+
+.section-b__row1__item1,
+.section-b__row1__item2,
+.section-b__row2__item1,
+.section-b__row2__item2 {display: flex;
+                         flex-flow: column nowrap;
+                         justify-content: center;
+                         align-items: center;
+                         text-align: center;}
+
+.clock {height: 71px;}
+
+.file {height: 64px;}
+
+.section-b__img {margin-bottom: 45px;}
+
+.section-b__h {margin-bottom: 19px;}
+
+.section-b__p { width: 342px;}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
