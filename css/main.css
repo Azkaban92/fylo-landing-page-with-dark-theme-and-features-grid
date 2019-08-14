@@ -3,13 +3,21 @@
 
 
 * {margin: 0;
-   padding: 0;}
+   padding: 0;
+   font-weight: 400;}
+
+.standard {font-family: "Open Sans";}
+
+.not-standard {font-family: "Raleway";}
 
 @media screen and (max-width: 767px)
 
 {
 
+
 /* Header */
+
+p {font-size: 14px;}
 
 .bg-intro {background-color: hsl(217, 28%, 15%);}
 
@@ -34,10 +42,12 @@ nav {float: right;
      margin-bottom: 57.5px;
      color: white;}
 
-li {display: inline; margin: 0 25.5px 0 0;}
+li {display: inline;
+    margin: 0 25.5px 0 0;}
 
 .intro {width: 305px;
-        position: relative; z-index: 1;}
+        position: relative;
+        z-index: 1;}
 
 /* Section-a */
 
@@ -58,15 +68,20 @@ li {display: inline; margin: 0 25.5px 0 0;}
             align-items: center;
             text-align: center;}
 
-.section-a__h {width: 80.8%; font-size: 21px; margin-bottom: 25px;}
+.section-a__h {width: 80.8%;
+               font-size: 21px;
+               margin-bottom: 25px;
+               font-weight: 700;}
 
-.section-a__p {width: 77.6%; font-size: 14px; margin-bottom: 37px;}
+.section-a__p {width: 77.6%;
+               margin-bottom: 37px;}
 
 .section-a__btn {padding: 19px 83px;
                  border-radius: 100px;
                  margin-bottom: 131.5px;
                  border: none;
                  color: white;
+                 font-weight: 700;
                  background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));}
 
 /* Section-b */
@@ -81,7 +96,8 @@ li {display: inline; margin: 0 25.5px 0 0;}
 
 .section-b__img {margin-bottom: 45px;}
 
-.section-b__h {margin-bottom: 19px;}
+.section-b__h {margin-bottom: 19px;
+               font-weight: 700;}
 
 .section-b__p {margin-bottom: 95px; width: 80.93%;
                margin-left: auto;
@@ -110,6 +126,8 @@ li {display: inline; margin: 0 25.5px 0 0;}
 .section-c__column2__h-center {align-self: center;
                                margin-bottom: 26px;
                                font-size: 21px;}
+
+.section-c__column2__h {font-weight: 700;}
 
 .section-c__column2__p {margin-bottom: 27px;
                         width: 84.67%; }
@@ -152,7 +170,8 @@ li {display: inline; margin: 0 25.5px 0 0;}
                       margin-left: auto;
                       margin-right: auto;}
 
-.section-d__review__h {font-size: 15px;}
+.section-d__review__h {font-size: 15px;
+                       font-weight: 700;}
 
 .section-d__review__sub-p {margin-top: 9px;
                            font-size: 12px;}
@@ -193,7 +212,8 @@ li {display: inline; margin: 0 25.5px 0 0;}
                margin-bottom: 34px;}
 
 .section-e__h {margin-bottom: 30.5px;
-              font-size: 21px;}
+              font-size: 21px;
+              font-weight: 700;}
 
 .section-e__email {margin-bottom: 24px;
                    border-radius: 100px;
@@ -279,8 +299,9 @@ footer {background-color: hsl(216, 53%, 9%);
   .bg-intro {background-color: hsl(217, 28%, 15%);}
 
   .intro-wrapper {display: flex;
-                  flex-flow: column nowrap;
-                  align-items: center;
+                  flex-flow: row nowrap;
+                  width: 100%;
+                  justify-content: center;
                   position: relative;
                   z-index: 1;}
 
@@ -297,11 +318,12 @@ footer {background-color: hsl(216, 53%, 9%);
        margin-bottom: 57.5px;
        color: white;}
 
-  li {display: inline; margin: 0 59px 0 0;}
+  li {display: inline;
+      margin: 0 59px 0 0;}
 
   .intro {width: 715px;
           position: relative;
-          margin-top: 202px;
+          margin-top: 96px;
           margin-bottom: 115px;
           z-index: 1;}
 
@@ -323,9 +345,10 @@ footer {background-color: hsl(216, 53%, 9%);
             align-items: center;
             text-align: center;}
 
-.section-a__h {width: 47.01%;
+.section-a__h {width: 47.70%;
                font-size: 40px;
-               margin-bottom: 25px;}
+               margin-bottom: 25px;
+               font-weight: 700;}
 
 .section-a__p {width: 40.28%;
                font-size: 21px;
@@ -336,6 +359,7 @@ footer {background-color: hsl(216, 53%, 9%);
                  margin-bottom: 131.5px;
                  border: none;
                  color: white;
+                 font-weight: 700;
                  background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));}
 
 /* Section-b */
@@ -369,7 +393,9 @@ footer {background-color: hsl(216, 53%, 9%);
 
 .section-b__img {margin-bottom: 45px;}
 
-.section-b__h {margin-bottom: 19px;}
+.section-b__h {margin-bottom: 19px;
+               font-size: 22px;
+               font-weight: 700;}
 
 .section-b__p {width: 342px;}
 
@@ -387,7 +413,8 @@ footer {background-color: hsl(216, 53%, 9%);
 
 .section-c__column2__h {margin-bottom: 37px;
                         font-size: 40px;
-                        width: 333px;}
+                        width: 333px;
+                        font-weight: 700;}
 
 .section-c__column2__p {margin-bottom: 28px;
                         font-size: 21px;
@@ -418,7 +445,8 @@ footer {background-color: hsl(216, 53%, 9%);
                       padding: 48px 32px 28px 27px;
                       border-radius: 10px;}
 
-.section-d__review__h {font-size: 15px;}
+.section-d__review__h {font-size: 15px;
+                       font-weight: 700;}
 
 .section-d__review__sub-p {margin-top: 9px;
                            font-size: 12px;}
@@ -457,11 +485,12 @@ footer {background-color: hsl(216, 53%, 9%);
 
 .btn-email-wrapper {display: flex; flex-flow: row nowrap;}
 
-.section-e__p {width: 744px;
+.section-e__p {width: 623px;
                margin-bottom: 34px;}
 
 .section-e__h {margin-bottom: 30.5px;
-               font-size: 40px;}
+               font-size: 36px;
+               font-weight: 700;}
 
 .section-e__email {margin-bottom: 24px;
                    border-radius: 100px;
@@ -477,6 +506,7 @@ footer {background-color: hsl(216, 53%, 9%);
                  font-size: 14px;
                  border: none;
                  width: 200px;
+                 font-weight: 700;
                  color: white;
                  background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));}
 
@@ -500,7 +530,8 @@ footer {background-color: hsl(216, 53%, 9%);
 .logo-bottom {padding: 203px 0px 48px 120px;}
 
 .location-p {margin-bottom: 28px;
-             width: 325px;}
+             width: 315px;
+             height: 1px;}
 
 .phone-p {margin-bottom: 32.5px;}
 
@@ -517,7 +548,7 @@ footer {background-color: hsl(216, 53%, 9%);
 
 .footer__column5 {margin-right: 80px;}
 
-.location-p {height: 1px;}
+
 
 .footer__p {margin-bottom: 26px;}
 
